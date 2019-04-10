@@ -25,7 +25,7 @@ vue前端直传阿里云在线翻译，欢迎各位童鞋star
 ### 安装与运行
 
 ```
-git clone https://github.com/Monuter-xyy/oralSystem.git
+git clone https://github.com/Mounter-xyy/oralSystem.git
 
 cd oralSystem
 
