@@ -1,71 +1,47 @@
-# vueAdmin-template
+# vue-oralSystem
 
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
+> Vue2.0—英语口语在线测试
+vue前端直传阿里云在线翻译，欢迎各位童鞋star 
 
-**Live demo:** http://panjiachen.github.io/vueAdmin-template
+## 技术栈
 
-[中文文档](https://github.com/PanJiaChen/vueAdmin-template/blob/master/README-zh.md)
+前端 es6 + vue2.0 + webpack + vuex + vue-router + axios + element-ui
 
-## Build Setup
+后端 spring + springmvc + mybatis + Redis缓存 + activemq集群
 
-``` bash
+## 项目预览
+[在线预览](https://oral.dbztk.com)
 
-# Clone project
-git clone https://github.com/PanJiaChen/vueAdmin-template.git
+## 项目截图
 
-# Install dependencies
-npm install
+![image](https://github.com/vqlai/vue2-football/blob/master/static/1.jpg)
 
-# serve with hot reload at localhost:9528
-npm run dev
+![image](https://github.com/vqlai/vue2-football/blob/master/static/2.jpg)
 
-# build for production with minification
-npm run build
+![image](https://github.com/vqlai/vue2-football/blob/master/static/3.jpg)
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+![image](https://github.com/vqlai/vue2-football/blob/master/static/4.jpg)
 
-## Demo
-![demo](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/demo.gif)
-
-## Extra
-If you want router permission && generate menu by user roles , you can use this branch [permission-control](https://github.com/PanJiaChen/vueAdmin-template/tree/permission-control)
-
-## Related Project
- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
- [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-
-### Element-Ui using cdn tutorial
-First find `index.html`([root directory](https://github.com/PanJiaChen/vueAdmin-template/blob/element-ui-cdn/index.html))
-
-Import css and js of `Element`, and then import vue. Because `Element` is vue-dependent, vue must be import before it.
-
-Then find [webpack.base.conf.js](https://github.com/PanJiaChen/vueAdmin-template/blob/element-ui-cdn/build/webpack.base.conf.js)
-Add `externals` to make webpack not package vue and element.
+### 安装与运行
 
 ```
-externals: {
-  vue: 'Vue',
-  'element-ui':'ELEMENT'
-}
-```
+git clone https://github.com/Monuter-xyy/oralSystem.git
 
-Finally there is a small detail to pay attention to that if you import vue in global, you don't need to manually `Vue.use(Vuex)`, it will be automatically mounted, see
- [issue](https://github.com/vuejs/vuex/issues/731)
+cd oralSystem
 
-And you can use `npm run build --report` to see the effect
+npm install（建议使用淘宝镜像cnpm）
 
-Pictured:
-![demo](https://panjiachen.github.io/images/element-cdn.png)
+npm run dev //服务端运行 
 
-**[Detailed code](https://github.com/PanJiaChen/vueAdmin-template/commit/746aff560932704ae821f82f10b8b2a9681d5177)**
-
-**[Branch](https://github.com/PanJiaChen/vueAdmin-template/tree/element-ui-cdn)**
+npm run build 项目打包 
 
 
-## License
-[MIT](https://github.com/PanJiaChen/vueAdmin-template/blob/master/LICENSE) license.
+运行打包后代码
 
-Copyright (c) 2017-present PanJiaChen
+将server.js复制到dist文件夹下 
+
+cd dist
+
+node server.js  （确保已经安装node环境）
+
+欢迎各位童鞋star，有任何问题可以在这里提issue，谢谢你的支持。
