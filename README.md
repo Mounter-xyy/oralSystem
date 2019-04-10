@@ -14,13 +14,6 @@ vue前端直传阿里云在线翻译，欢迎各位童鞋star
 
 ## 项目截图
 
-![image](https://github.com/vqlai/vue2-football/blob/master/static/1.jpg)
-
-![image](https://github.com/vqlai/vue2-football/blob/master/static/2.jpg)
-
-![image](https://github.com/vqlai/vue2-football/blob/master/static/3.jpg)
-
-![image](https://github.com/vqlai/vue2-football/blob/master/static/4.jpg)
 
 ### 安装与运行
 
